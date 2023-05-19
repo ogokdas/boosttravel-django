@@ -1,0 +1,26 @@
+body {
+  background-color: lightgray !important;
+}
+  .gm-style-iw {
+background-color: white !important;
+  color: black;
+}
+  #content {
+    margin-top: 7px;
+    font-size: 11px;
+  }
+
+  @media screen and (min-width: 768px) {
+    #content {
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    #content {
+      font-size: 14px;
+    }
+  }
+        #map {
+            height: 500px;
+        }
