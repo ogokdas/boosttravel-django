@@ -36,7 +36,9 @@ If you wish to contribute to the development of this application, you can help b
 2.	Implement the necessary changes to fetch and display the tourist guide text dynamically using JavaScript or Django's templating engine with StreamingHTTPResponse.
 3.	Thoroughly test the changes to ensure proper functionality.
 4.	Submit a pull request with your modifications, providing a clear description of the changes made.
-Contact
+
+Contact:
+
 For any inquiries or feedback, please contact me at
 OGOKDAS1@gmail.com 
 and 
