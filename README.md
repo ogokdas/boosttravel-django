@@ -1,15 +1,15 @@
 Boost Travel - Django Tourist Guide:
 
+Description:
+
+I have developed the Boosttravel - Django Tourist Guide application to provide online tourist guide services to users. The application empowers users to explore tourist attractions in a city by connecting them to a selected location on a world map. Users can mark points of interest on the map, click the "Get Recommendations" button, and access highlighted tourist spots in the associated city. Moreover, the application generates a concise summary of the tourist guide, presenting information about activities and attractions in the marked locations. To build this application, I utilized HTML, CSS, and JavaScript for the frontend, while the backend leverages the Django framework and Python programming language. The map functionality relies on the Google Maps API, tourist spot retrieval is facilitated by the Google Places API, and the OpenAI ChatGPT API is employed to generate the tourist guide text. By sending the coordinates obtained from Google Maps as a prompt to the ChatGPT API, the guide text is dynamically created. I have created this platform with the intention of sharing it with others on GitHub.
+
 ![Selection for Istanbul](https://github.com/ogokdas/boosttravel-django/blob/main/png/select_istanbul.PNG)
 ![Advices for Istanbul](https://github.com/ogokdas/boosttravel-django/blob/main/png/advice_istanbul.PNG)
 ![Selection for Jersey](https://github.com/ogokdas/boosttravel-django/blob/main/png/select_jersey.PNG)
 ![Advices for Jersey](https://github.com/ogokdas/boosttravel-django/blob/main/png/advice_jersey.PNG)
 ![Selection for no where](https://github.com/ogokdas/boosttravel-django/blob/main/png/select_nowhere.PNG)
 ![Advices for no where](https://github.com/ogokdas/boosttravel-django/blob/main/png/advice_neverland.PNG)
-
-Description:
-
-I have developed the Boosttravel - Django Tourist Guide application to provide online tourist guide services to users. The application empowers users to explore tourist attractions in a city by connecting them to a selected location on a world map. Users can mark points of interest on the map, click the "Get Recommendations" button, and access highlighted tourist spots in the associated city. Moreover, the application generates a concise summary of the tourist guide, presenting information about activities and attractions in the marked locations. To build this application, I utilized HTML, CSS, and JavaScript for the frontend, while the backend leverages the Django framework and Python programming language. The map functionality relies on the Google Maps API, tourist spot retrieval is facilitated by the Google Places API, and the OpenAI ChatGPT API is employed to generate the tourist guide text. By sending the coordinates obtained from Google Maps as a prompt to the ChatGPT API, the guide text is dynamically created. I have created this platform with the intention of sharing it with others on GitHub.
 
 Installation:
 
