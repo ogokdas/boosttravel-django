@@ -15,18 +15,26 @@ Installation:
 
 To install and run the application locally, follow these steps:
 1.	Clone the repository:
-git clone https://github.com/ogokdas/boosttravel-django.git
+```
+  git clone https://github.com/ogokdas/boosttravel-django.git
+```
 2.	Navigate to the project directory:
-cd project_directory
+```
+  cd project_directory
+```
 3.	Install the required packages by running the following command:
-pip install -r requirements.txt
+```
+  pip install -r requirements.txt
+```
 4.	Obtain the necessary API keys:
 1.	Google Maps API: Visit the Google Cloud Console (https://console.cloud.google.com/) to create a project and generate an API key. Enable the Maps JavaScript API, Places API, and Geocoding API for your project.
 2.	OpenAI ChatGPT API: Obtain an API key from OpenAI (https://platform.openai.com/account/api-keys/) to use the ChatGPT API.
 5.	Update API keys in the application:
 Open the settings.py file located at boosttravel/settings.py. In this file, replace the placeholders GOOGLEMAPS_API_KEY and OPENAI_API_KEY with your own API keys. Additionally, in the HTML files within the Templates folder (advice/templates), make sure to replace the placeholder GOOGLEMAPS_API_KEY with your own API key.
 6.	Run the development server:
-python manage.py runserver
+```
+  python manage.py runserver
+```
 7.	Access the application in your web browser: http://localhost:8000/
 
 Contribution:
